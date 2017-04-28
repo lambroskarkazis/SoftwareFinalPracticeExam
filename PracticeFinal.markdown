@@ -14,7 +14,7 @@ You work as a software engineer at Blackboard. You develop the backend of the le
 
 ```C#
 public class Student extends Person {
-	private Enuberable<CourseResult> completedCourses { get; set; }
+	private Enumerable<CourseResult> completedCourses { get; set; }
 	private Enumerable<Course> currentCourses { get; set; }
 
 	// Other student related code here...
@@ -29,7 +29,7 @@ public class Student extends Person {
 }
 ```
 
-How would you compose a component test to ensure that these functions work together? What potential probllems could arise from this implementation?
+How would you compose a component test to ensure that these functions work together? What potential problems could arise from this implementation?
 
 ### Question 4
 Why do many software projects begin with data modeling?
@@ -38,7 +38,7 @@ Why do many software projects begin with data modeling?
 Provide an example of both a functional and non-functional requirement to illustrate the difference between the two.
 
 ### Question 6
-Explain the concepts of high cohesion and loose copuling. Describe why these concepts help software development.
+Explain the concepts of high cohesion and loose coupling. Describe why these concepts help software development.
 
 ### Question 7
 What benefits did .NET MVC bring to your project? What drawbacks did .NET MVC bring to your project?
