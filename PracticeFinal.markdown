@@ -1,7 +1,7 @@
 # RAIK 383H: Software Engineering Practice Final
-## Spring 2017
-## Professor Mihaela Bobaru
-## Author Lambros Karkazis
+#### Spring 2017
+#### Professor Mihaela Bobaru
+#### Author Lambros Karkazis
 
 ### Question 1
 Describe steps which your group took to manage complexity during your project.
