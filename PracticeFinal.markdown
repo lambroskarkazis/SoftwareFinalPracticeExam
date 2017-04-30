@@ -29,7 +29,7 @@ public class Student extends Person {
 }
 ```
 
-How would you compose a component test to ensure that these functions work together? What potential problems could arise from this implementation?
+How would you compose a component test to ensure that these functions work together? What potential problems could arise from this implementation? (Note: component-level testing checks the interaction between functions.)
 
 ### Question 4
 Why do many software projects begin with data modeling?
@@ -47,7 +47,7 @@ What benefits did .NET MVC bring to your project? What drawbacks did .NET MVC br
 Describe one component of your final project that you could reuse in another system. How would you reuse this component? 
 
 ### Question 9
-How might your project's software need to change if you actually deployed it?
+How might your project's software need to change if you actually deployed it? What software problems can production bring to light? 
 
 ### Question 10
 How does .NET MVC implement a distributed system? (Hint: think about which code runs on which machine)
