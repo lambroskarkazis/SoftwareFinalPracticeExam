@@ -44,3 +44,16 @@ Pretend that you develop software for a banking company. You need to write code 
 
 High cohesion means that multiple components `play well' with each other. Loose coupling means that individual components do not depend heavily on one another. Applying these concepts to software products results in better code. If a software project has highly cohesive parts, it will result in fewer pieces and fewer lines of code. When each interaction between software pieces yields meaningful results, the software projects need less pieces and less interactions. When software projects have loosely coupled parts, the project has less complexity. A change in one piece does not cause the entire system to break.
 
+### Question 7
+
+Our choice of framework eased complexity. The framework has great documentation. Many have used it, so we could avoid other's mistakes. The MVC architecture adequately separates the project's parts. (Note: this part came right from an earlier question)
+
+### Question 8
+
+One component I developed was the map.js file. This file contains functions useful for mapping multiple addresses or routes onto a map. To adapt the code to a new project, I may need to change the names of the object properties. I could reuse that component in any project that requires the generation of maps.
+
+### Question 9
+
+Software projects run into many problems when they deploy. Many of these problems boil down to concurrency or scaling. When code actually deploys, many users will participate simultaneously. In our project, we never rigorously tested our platform with many concurrent users. If an admin deleted a user during an order, problems could occur. In terms of scaling, our program could have inefficiencies that do not cause problems until the database grows or many users strain the servers. 
+
+
