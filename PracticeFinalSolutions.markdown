@@ -56,4 +56,38 @@ One component I developed was the map.js file. This file contains functions usef
 
 Software projects run into many problems when they deploy. Many of these problems boil down to concurrency or scaling. When code actually deploys, many users will participate simultaneously. In our project, we never rigorously tested our platform with many concurrent users. If an admin deleted a user during an order, problems could occur. In terms of scaling, our program could have inefficiencies that do not cause problems until the database grows or many users strain the servers. 
 
+### Question 10
 
+.NET MVC implements a distributed system becuase code runs on different machines and interacts. For example, when a customer places an order, their machinee sends an HTTP POST to the Optimal Hacks server. The server processes the request to place the order onto the server. 
+
+### Question 11
+
+A Service Oriented Architecture encapsulates functionality and interacts with client processes through a well-defined protocall. In our project, a user needs to access the Optimal Hacks server through our website. If our project utilized a service oriented paradaigm, then any application could intereact with our servers. 
+
+Service oriented architectures create self-contained functionality that can interact with a variety of other programs. Since the services focus on one area of functionality, they do not have as much bloat as a single program that tries to do everything. 
+
+Further, since service oriented architectures generally create an API prior to development, multiple teams could develop multiple services which integrate nicely at the end of the project.
+
+### Question 12
+
+In our project, my group used git to separate each developer's work. Whenever a new feature needed development, the programmer created a branch to develop that feature. Towards the end of each sprint, every developer merged back into develop. When the sprint finished, the team ensured that develp worked properly. Finally, teh team merged develop into master.
+
+### Question 13
+
+An error occurs when the software outputs an incorrect result. For example, if an ATM outputs $10 instead of $20, an error occured. While the user still received some money, the user did not receive the correct amount of money. A failure occurs when the system cannot perform the desired functionality at all. So, if the ATM caught fire and output no money, and failure occured.
+
+### Question 14
+
+Problems
+1. Unmotivated team members.
+2. Failure to meet requirements in a timely manner.
+3. Changing customer expectations.
+
+Solutions
+1. Figure out what motivates individual team members. Depending on what interests the programmer, consider providing that programmer with different work.
+2. Remove unnecessary requirements and focus on the most important ones.
+3. Depending on the terms of the contract, remind the customer what they paid your team to build. If they pay hourly and frequently change their minds, that costs them more than it hurts you.
+
+### Question 15
+
+The code review process helps ensure a quality codebase. When every line of code has multiple people looking at it, many flaws can get fixed. Static analysis tools are products that ensure quality code. When the program can review code for potential errors, code quality increases. 
